@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+     font-family: "Segoe UI", sans-serif;
+}
+
+body{
+     height: 100vh;
+    background-color: rgb(101, 16, 238);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#container{
+   height: 590px;
+    width: 500px;
+    background-color:white;
+    rotate: -10deg;
+   
+}
+#container:hover{
+     box-shadow: 5px 5px 5px 5px rgb(159, 118, 226);
+}
+ 
+.image{
+    width: 100%;
+    padding: 10px;
+    /* right: 5px; */
+  position: relative;
+  width: 390px;
+    
+   
+}
+#concert{
+ /* width: %; */
+ width: 480px;
+ height: 260px;
+ display: block;
+  object-fit: cover;
+ overflow: hidden;
+ border-radius: 8px;
+
+}
+#date{
+    font-weight: bold;
+}
+#month{
+    font-weight: bold;
+  
+    color: brown;
+   
+}
+#cal{
+    height: 50px;
+    width: 40px;
+  background-color: white;
+    position: absolute;
+    top: 10px;
+    left: 2px;
+    margin: 15px;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+#like{
+height: 30px;
+border: 2px solid rgb(12, 12, 12);
+border-radius: 50%;
+position: absolute;
+  top: 15px;
+    left: 450px;
+}
+#topic{
+    border: 2px solid rgb(76, 184, 220);
+    /* height: 8px; */
+    width: 80px;
+    font-size: 10px;
+    padding: 2px;
+    text-align: center;
+    background-color: lightblue;
+}
+#content{
+    padding: 1px 10px 10px 10px;
+}
+
+#content2{
+    height: 5px;
+    color: rgb(76, 78, 79);
+}
+#footer {
+    display: flex;
+  /* justify-content: space-between; */
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 140px;
+  /* gap: 5px; */
+}
+button{
+    border: 5px;
+    height: 38px;
+    width: 200px;
+    /* background-color: white; */
+    padding: 10px;
+    font-size: 10px
+    cursor: pointer;
+    color: black;
+    border-radius: 5px;
+}
+#b1{
+     background: #2563eb;
+  color: white;
+}
+#b2 {
+  background: #f1f1f1;
+  color: #111;
+}
+#b1:hover{
+    background-color: rgb(17, 17, 243);
+    color: white;
+
+}
+#b2:hover{
+    background-color: rgb(17, 17, 243);
+    color: white;
+}
+    
+p{
+    padding: 3px;
+}
